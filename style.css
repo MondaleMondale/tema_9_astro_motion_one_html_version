@@ -1,0 +1,108 @@
+:root {
+    --width: 70vw;
+    --bg-color: rgb(27, 27, 27);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(215, 210, 176);
+}
+
+body {
+    background-color: black;
+
+}
+
+main {
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+.ball {
+    position: sticky;
+    top: 0;
+    align-self: start;
+    width: 10vw;
+    /* transform-origin: center; */
+}
+
+
+.top_header {
+    /* margin-top: -; */
+    width: var(--width);
+
+}
+
+
+h2 {
+    font-size: 3rem;
+    padding: 1rem;
+
+    display: inline-block;
+    transform-origin: center center;
+
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.standard_scroll_section {
+    width: var(--width);
+    background-color: var(--bg-color);
+
+    border-radius: 3rem;
+
+    margin-bottom: 4rem;
+    padding: 3rem;
+}
+
+.the_odd_one_out {
+    width: var(--width);
+    background-color: var(--bg-color);
+
+    height: 36rem;
+    border-radius: 3rem;
+    padding: 3rem;
+    margin-bottom: 4rem;
+}
+
+.mona_video {
+    width: var(--width);
+
+    height: 36rem;
+    border-radius: 3rem;
+
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal_scroll {
+    width: 100vw;
+
+    height: 300vw;
+    margin-bottom: 4rem;
+
+
+    overflow: clip;
+}
+
+.horizontal_scroll_inner_container {
+    width: 150vw;
+
+    display: flex;
+
+
+    position: sticky;
+    top: 50vh;
+
+}
